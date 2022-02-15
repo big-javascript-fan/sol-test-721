@@ -1,0 +1,1011 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xC59792da19A7eC0C2774ADd8ae69E64FfFfc2Abe",
+    "txHash": "0x35f60acd2d7024c504f9ce91666237b0333bfa8024600a3b24477278c39e77ba",
+    "deployTransaction": {
+      "hash": "0x35f60acd2d7024c504f9ce91666237b0333bfa8024600a3b24477278c39e77ba",
+      "type": 0,
+      "accessList": null,
+      "blockHash": null,
+      "blockNumber": null,
+      "transactionIndex": null,
+      "confirmations": 0,
+      "from": "0xD387098B3CA4C6D592Be0cE0B69E83BE86011c50",
+      "gasPrice": {
+        "type": "BigNumber",
+        "hex": "0x02540be400"
+      },
+      "gasLimit": {
+        "type": "BigNumber",
+        "hex": "0x075da0"
+      },
+      "to": null,
+      "value": {
+        "type": "BigNumber",
+        "hex": "0x00"
+      },
+      "nonce": 128,
+      "data": "0x608060405234801561001057600080fd5b50600080546001600160a01b031916339081178255604051909182917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908290a350610759806100616000396000f3fe60806040526004361061007b5760003560e01c80639623609d1161004e5780639623609d1461011157806399a88ec414610124578063f2fde38b14610144578063f3b7dead146101645761007b565b8063204e1c7a14610080578063715018a6146100bc5780637eff275e146100d35780638da5cb5b146100f3575b600080fd5b34801561008c57600080fd5b506100a061009b366004610515565b610184565b6040516001600160a01b03909116815260200160405180910390f35b3480156100c857600080fd5b506100d1610215565b005b3480156100df57600080fd5b506100d16100ee366004610554565b610292565b3480156100ff57600080fd5b506000546001600160a01b03166100a0565b6100d161011f36600461058c565b61031c565b34801561013057600080fd5b506100d161013f366004610554565b6103ad565b34801561015057600080fd5b506100d161015f366004610515565b610405565b34801561017057600080fd5b506100a061017f366004610515565b6104ef565b6000806000836001600160a01b03166040516101aa90635c60da1b60e01b815260040190565b600060405180830381855afa9150503d80600081146101e5576040519150601f19603f3d011682016040523d82523d6000602084013e6101ea565b606091505b5091509150816101f957600080fd5b8080602001905181019061020d9190610538565b949350505050565b6000546001600160a01b031633146102485760405162461bcd60e51b815260040161023f906106c0565b60405180910390fd5b600080546040516001600160a01b03909116907f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0908390a3600080546001600160a01b0319169055565b6000546001600160a01b031633146102bc5760405162461bcd60e51b815260040161023f906106c0565b6040516308f2839760e41b81526001600160a01b038281166004830152831690638f283970906024015b600060405180830381600087803b15801561030057600080fd5b505af1158015610314573d6000803e3d6000fd5b505050505050565b6000546001600160a01b031633146103465760405162461bcd60e51b815260040161023f906106c0565b60405163278f794360e11b81526001600160a01b03841690634f1ef286903490610376908690869060040161065d565b6000604051808303818588803b15801561038f57600080fd5b505af11580156103a3573d6000803e3d6000fd5b5050505050505050565b6000546001600160a01b031633146103d75760405162461bcd60e51b815260040161023f906106c0565b604051631b2ce7f360e11b81526001600160a01b038281166004830152831690633659cfe6906024016102e6565b6000546001600160a01b0316331461042f5760405162461bcd60e51b815260040161023f906106c0565b6001600160a01b0381166104945760405162461bcd60e51b815260206004820152602660248201527f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160448201526564647265737360d01b606482015260840161023f565b600080546040516001600160a01b03808516939216917f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e091a3600080546001600160a01b0319166001600160a01b0392909216919091179055565b6000806000836001600160a01b03166040516101aa906303e1469160e61b815260040190565b600060208284031215610526578081fd5b81356105318161070b565b9392505050565b600060208284031215610549578081fd5b81516105318161070b565b60008060408385031215610566578081fd5b82356105718161070b565b915060208301356105818161070b565b809150509250929050565b6000806000606084860312156105a0578081fd5b83356105ab8161070b565b925060208401356105bb8161070b565b9150604084013567ffffffffffffffff808211156105d7578283fd5b818601915086601f8301126105ea578283fd5b8135818111156105fc576105fc6106f5565b604051601f8201601f19908116603f01168101908382118183101715610624576106246106f5565b8160405282815289602084870101111561063c578586fd5b82602086016020830137856020848301015280955050505050509250925092565b600060018060a01b038416825260206040818401528351806040850152825b818110156106985785810183015185820160600152820161067c565b818111156106a95783606083870101525b50601f01601f191692909201606001949350505050565b6020808252818101527f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572604082015260600190565b634e487b7160e01b600052604160045260246000fd5b6001600160a01b038116811461072057600080fd5b5056fea2646970667358221220d849f96f3086b9f82cdcf665adb8c697ace05638da1c7c16ab2d26293717af6764736f6c63430008020033",
+      "r": "0x8abdea93bff439519adcfd9c802505aed31e5c166d5d04818e1a0e234b0eacd0",
+      "s": "0x392fd7eb3bed65099168e487a25bac6b779e358c2166bfdca6ffaa51ce1332a6",
+      "v": 229,
+      "creates": "0xC59792da19A7eC0C2774ADd8ae69E64FfFfc2Abe",
+      "chainId": 97
+    }
+  },
+  "proxies": [
+    {
+      "address": "0x697AaEa4DDC860918B28a55a9D6ef4038018CB62",
+      "txHash": "0xefea68e0c1573b94510f10319a45a8eebf9bcf4dd5477ca076bc9868ce2b20b8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA879fA61Bcd720DC387AB929d91bF7DF9cfc9FF5",
+      "txHash": "0x437cf883f929e899afefcaa7d725b4c9f92510403072fd7c772a1bd003798415",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6F3ce19Dc1eaDea963F78794660f81E4788cdBEE",
+      "txHash": "0x9dc488dc6974f1b7a0f5252f8ad43535e4d74270d68745965fa539794bf40f54",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "76de9fdb3ddcbc7e4ab831981b5e3d076ebb67723acdf8eead8fb1c762636838": {
+      "address": "0x7E6A8a1C5F963c24C2dcA1CBcedc7ba0E18c75Bf",
+      "txHash": "0x9fe652040626bbff21ce25a98d5418159a59da7897d5733f9a02b98aed938fdc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "contracts/ERC1155/ERC1155.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "contracts/ERC1155/ERC1155.sol:31"
+          },
+          {
+            "contract": "ERC1155Metadata",
+            "label": "baseMetadataURI",
+            "type": "t_string_storage",
+            "src": "contracts/ERC1155/ERC1155Metadata.sol:16"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner_",
+            "type": "t_address",
+            "src": "contracts/utils/Ownable.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "_currentTokenID",
+            "type": "t_uint256",
+            "src": "contracts/Fullhouse.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "proxyRegistryAddress",
+            "type": "t_address",
+            "src": "contracts/Fullhouse.sol:14"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "tokenSupply",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/Fullhouse.sol:15"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:18"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:20"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "8d020a5350a692e026d0c121b800aaa4f0a7ebfde1f8f875daf786ae80d38142": {
+      "address": "0x71136a6945175D603bA35087E3d33Df0788D1539",
+      "txHash": "0xc501baeb5d51469bfc2a37cc8416a34030af5f0e91aed20c7531dfe66b9ace27",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "contracts/ERC1155/ERC1155.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "contracts/ERC1155/ERC1155.sol:31"
+          },
+          {
+            "contract": "ERC1155Metadata",
+            "label": "baseMetadataURI",
+            "type": "t_string_storage",
+            "src": "contracts/ERC1155/ERC1155Metadata.sol:16"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner_",
+            "type": "t_address",
+            "src": "contracts/utils/Ownable.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "_currentTokenID",
+            "type": "t_uint256",
+            "src": "contracts/Fullhouse.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "proxyRegistryAddress",
+            "type": "t_address",
+            "src": "contracts/Fullhouse.sol:14"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "tokenSupply",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/Fullhouse.sol:15"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:18"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:20"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "1d2a8036167e2b0146b45323a556157aa2860bc7def87ebd4ad2f79225abe40f": {
+      "address": "0x358dfA821F426743dDa22b59787ead93590C180A",
+      "txHash": "0x2d40f9248d344a04076733e7653fdcb850bcdd07af9c8b67dca8123601d73ae2",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "contracts/ERC1155/ERC1155.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "contracts/ERC1155/ERC1155.sol:31"
+          },
+          {
+            "contract": "ERC1155Metadata",
+            "label": "baseMetadataURI",
+            "type": "t_string_storage",
+            "src": "contracts/ERC1155/ERC1155Metadata.sol:16"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner_",
+            "type": "t_address",
+            "src": "contracts/utils/Ownable.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "_currentTokenID",
+            "type": "t_uint256",
+            "src": "contracts/Fullhouse.sol:15"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "proxyRegistryAddress",
+            "type": "t_address",
+            "src": "contracts/Fullhouse.sol:16"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "tokenSupply",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/Fullhouse.sol:17"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:20"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:22"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "accessControls",
+            "type": "t_contract(FullhouseAccessControl)211",
+            "src": "contracts/Fullhouse.sol:25"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_contract(FullhouseAccessControl)211": {
+            "label": "contract FullhouseAccessControl"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "ce5605df80721db4dae0f658e33f98f37835557fdbebdde26a657766d4de67e3": {
+      "address": "0x1E6F5fcDAF4676eCd68C047b98895943e666fB26",
+      "txHash": "0xab56a95d20ba0771024c74d10cd61b07e1b556a9ae27d8958b2337c24fd967d8",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "contracts/ERC1155/ERC1155.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "contracts/ERC1155/ERC1155.sol:31"
+          },
+          {
+            "contract": "ERC1155Metadata",
+            "label": "baseMetadataURI",
+            "type": "t_string_storage",
+            "src": "contracts/ERC1155/ERC1155Metadata.sol:16"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner_",
+            "type": "t_address",
+            "src": "contracts/utils/Ownable.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "_currentTokenID",
+            "type": "t_uint256",
+            "src": "contracts/Fullhouse.sol:15"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "proxyRegistryAddress",
+            "type": "t_address",
+            "src": "contracts/Fullhouse.sol:16"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "tokenSupply",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/Fullhouse.sol:17"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:20"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:22"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "accessControls",
+            "type": "t_contract(FullhouseAccessControl)211",
+            "src": "contracts/Fullhouse.sol:25"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_contract(FullhouseAccessControl)211": {
+            "label": "contract FullhouseAccessControl"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "ddeb8f545636e13bf008fed93e8fec7aac606dd40983c42310a1dfe123824fbd": {
+      "address": "0x05C28123bc5b36574140523E4205e2D11B3ED82B",
+      "txHash": "0xded27b4c6a0862e9938eefd9ee0d42f8698b1ba0769a0f62f61efefeba52cd3c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "balances",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_uint256))",
+            "src": "contracts/ERC1155/ERC1155.sol:28"
+          },
+          {
+            "contract": "ERC1155",
+            "label": "operators",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_bool))",
+            "src": "contracts/ERC1155/ERC1155.sol:31"
+          },
+          {
+            "contract": "ERC1155Metadata",
+            "label": "baseMetadataURI",
+            "type": "t_string_storage",
+            "src": "contracts/ERC1155/ERC1155Metadata.sol:16"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner_",
+            "type": "t_address",
+            "src": "contracts/utils/Ownable.sol:13"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "_currentTokenID",
+            "type": "t_uint256",
+            "src": "contracts/Fullhouse.sol:15"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "proxyRegistryAddress",
+            "type": "t_address",
+            "src": "contracts/Fullhouse.sol:16"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "tokenSupply",
+            "type": "t_mapping(t_uint256,t_uint256)",
+            "src": "contracts/Fullhouse.sol:17"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "name",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:20"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "symbol",
+            "type": "t_string_storage",
+            "src": "contracts/Fullhouse.sol:22"
+          },
+          {
+            "contract": "Fullhouse",
+            "label": "accessControls",
+            "type": "t_contract(FullhouseAccessControl)211",
+            "src": "contracts/Fullhouse.sol:25"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_uint256)": {
+            "label": "mapping(uint256 => uint256)"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_contract(FullhouseAccessControl)211": {
+            "label": "contract FullhouseAccessControl"
+          },
+          "t_mapping(t_address,t_mapping(t_uint256,t_uint256))": {
+            "label": "mapping(address => mapping(uint256 => uint256))"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_bool))": {
+            "label": "mapping(address => mapping(address => bool))"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "b490bf7589bfc63449a3582978609b7a026dc30ba3994a4ef647417a8c9b4d1d": {
+      "address": "0x7E59c1109e44b31c5F9562165357c82228849C05",
+      "txHash": "0x97324a33871d669465d3c70896326c3f5fa17c008766c96aaa6ef454fbb81c28",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ReentrancyGuard",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "contracts/utils/ReentrancyGuard.sol:37"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "_currentAuctionID",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:132"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "_currentOfferID",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:135"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "auctions",
+            "type": "t_mapping(t_uint256,t_struct(AuctionDetail)3059_storage)",
+            "src": "contracts/FullhousePurchase.sol:138"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "offers",
+            "type": "t_mapping(t_uint256,t_struct(DirectOffer)3075_storage)",
+            "src": "contracts/FullhousePurchase.sol:141"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minBidIncrement",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:144"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "bidLockTime",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:147"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minAuctionPrice",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:150"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minOfferPrice",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:153"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "platformFeeRecipient",
+            "type": "t_address_payable",
+            "src": "contracts/FullhousePurchase.sol:156"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "accessControls",
+            "type": "t_contract(FullhouseAccessControl)211",
+            "src": "contracts/FullhousePurchase.sol:159"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "fullhouse",
+            "type": "t_contract(Fullhouse)2890",
+            "src": "contracts/FullhousePurchase.sol:162"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "isPaused",
+            "type": "t_bool",
+            "src": "contracts/FullhousePurchase.sol:165"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "currency",
+            "type": "t_contract(CashBetCoin)1559",
+            "src": "contracts/FullhousePurchase.sol:168"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(AuctionDetail)3059_storage)": {
+            "label": "mapping(uint256 => struct FullhousePurchase.AuctionDetail)"
+          },
+          "t_struct(AuctionDetail)3059_storage": {
+            "label": "struct FullhousePurchase.AuctionDetail",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "nfts",
+                "type": "t_array(t_uint256)dyn_storage"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "bid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "kind",
+                "type": "t_enum(PaymentMethod)2915"
+              },
+              {
+                "label": "lastBidTime",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creatorFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "status",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_enum(PaymentMethod)2915": {
+            "label": "enum FullhousePurchase.PaymentMethod",
+            "members": [
+              "BNB",
+              "CBC"
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(DirectOffer)3075_storage)": {
+            "label": "mapping(uint256 => struct FullhousePurchase.DirectOffer)"
+          },
+          "t_struct(DirectOffer)3075_storage": {
+            "label": "struct FullhousePurchase.DirectOffer",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "nfts",
+                "type": "t_array(t_uint256)dyn_storage"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "kind",
+                "type": "t_enum(PaymentMethod)2915"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creatorFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "status",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_contract(FullhouseAccessControl)211": {
+            "label": "contract FullhouseAccessControl"
+          },
+          "t_contract(Fullhouse)2890": {
+            "label": "contract Fullhouse"
+          },
+          "t_contract(CashBetCoin)1559": {
+            "label": "contract CashBetCoin"
+          }
+        }
+      }
+    },
+    "44e2a045bfd593eb70c222c0bc6e256be4ebcfcd030dae15d8917f6004f6bd24": {
+      "address": "0x9b55fe725fA425676eBD4FC8334Eb05CC01F4679",
+      "txHash": "0xba493d302b33e93ec1daf37aac53c2616b5aca37b4fd2d7fa8e6a60ca965e205",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "contracts/utils/Initializable.sol:28"
+          },
+          {
+            "contract": "ReentrancyGuard",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "contracts/utils/ReentrancyGuard.sol:37"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "_currentAuctionID",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:132"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "_currentOfferID",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:135"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "auctions",
+            "type": "t_mapping(t_uint256,t_struct(AuctionDetail)3059_storage)",
+            "src": "contracts/FullhousePurchase.sol:138"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "offers",
+            "type": "t_mapping(t_uint256,t_struct(DirectOffer)3075_storage)",
+            "src": "contracts/FullhousePurchase.sol:141"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minBidIncrement",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:144"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "bidLockTime",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:147"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minAuctionPrice",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:150"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "minOfferPrice",
+            "type": "t_uint256",
+            "src": "contracts/FullhousePurchase.sol:153"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "platformFeeRecipient",
+            "type": "t_address_payable",
+            "src": "contracts/FullhousePurchase.sol:156"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "accessControls",
+            "type": "t_contract(FullhouseAccessControl)211",
+            "src": "contracts/FullhousePurchase.sol:159"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "fullhouse",
+            "type": "t_contract(Fullhouse)2890",
+            "src": "contracts/FullhousePurchase.sol:162"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "isPaused",
+            "type": "t_bool",
+            "src": "contracts/FullhousePurchase.sol:165"
+          },
+          {
+            "contract": "FullhousePurchase",
+            "label": "currency",
+            "type": "t_contract(CashBetCoin)1559",
+            "src": "contracts/FullhousePurchase.sol:168"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(AuctionDetail)3059_storage)": {
+            "label": "mapping(uint256 => struct FullhousePurchase.AuctionDetail)"
+          },
+          "t_struct(AuctionDetail)3059_storage": {
+            "label": "struct FullhousePurchase.AuctionDetail",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "nfts",
+                "type": "t_array(t_uint256)dyn_storage"
+              },
+              {
+                "label": "bidder",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "bid",
+                "type": "t_uint256"
+              },
+              {
+                "label": "kind",
+                "type": "t_enum(PaymentMethod)2915"
+              },
+              {
+                "label": "lastBidTime",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creatorFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "status",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_address_payable": {
+            "label": "address payable"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]"
+          },
+          "t_enum(PaymentMethod)2915": {
+            "label": "enum FullhousePurchase.PaymentMethod",
+            "members": [
+              "BNB",
+              "CBC"
+            ]
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_uint256,t_struct(DirectOffer)3075_storage)": {
+            "label": "mapping(uint256 => struct FullhousePurchase.DirectOffer)"
+          },
+          "t_struct(DirectOffer)3075_storage": {
+            "label": "struct FullhousePurchase.DirectOffer",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address_payable"
+              },
+              {
+                "label": "nfts",
+                "type": "t_array(t_uint256)dyn_storage"
+              },
+              {
+                "label": "price",
+                "type": "t_uint256"
+              },
+              {
+                "label": "kind",
+                "type": "t_enum(PaymentMethod)2915"
+              },
+              {
+                "label": "platformFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "creatorFee",
+                "type": "t_uint256"
+              },
+              {
+                "label": "status",
+                "type": "t_bool"
+              }
+            ]
+          },
+          "t_contract(FullhouseAccessControl)211": {
+            "label": "contract FullhouseAccessControl"
+          },
+          "t_contract(Fullhouse)2890": {
+            "label": "contract Fullhouse"
+          },
+          "t_contract(CashBetCoin)1559": {
+            "label": "contract CashBetCoin"
+          }
+        }
+      }
+    }
+  }
+}
